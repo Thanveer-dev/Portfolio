@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Login-Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="first-div">
+            <p class="hello">Hello.</p>
+            <P style="margin-top: 3px;">Login your account</P>
+        </div>
+        <div class="input-box">
+            <p>USERNAME</p>
+            <input type="email"/>
+        </div>
+        <div class="input-box">
+            <p>PASSWORD</p>
+            <div class="eye">
+                <input type="password" id='password'><img src="./eye-close.png" id="toggle" onclick="showhide()"/>
+            </div>
+        </div>
+        <div class="fp">
+            <p>Forgot Password?</p>
+        </div>
+        <div class="login">
+            <div>
+                <p>Login</p>
+            </div>
+        </div>
+        <div class="login">
+            <p style="font-size: 0.75rem;">or login with</p>
+        </div>
+        <div class="icon">
+            <div class="Facebook_Logo"> 
+                <img src="./Facebook_Logo_(2019) 1.png" alt="Facebook_Logo_">
+            </div>
+            <div>
+                <img src="./google-logo-png-webinar-optimizing-for-success-google-business-webinar-13 1.png" alt="google icon"/>
+            </div>
+        </div>
+        <div class="create">
+            <div>
+                <p class="create-para">Create Account</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        const toggle=document.getElementById('toggle');
+        const password=document.getElementById('password');
+        function showhide(){
+            if(password.type=='password'){
+                password.setAttribute('type','text');
+                toggle.src="eye-open.png";
+            }
+            else{
+                password.setAttribute('type','password');
+                toggle.src="eye-close.png";
+            }
+        }
+    </script>
+</body>
+</html>
