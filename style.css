@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    margin-top: 1px;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+}
+
+p,span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    margin-top: 5px;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 350px;
+    gap: 10px;
+}
+
+.first-div>p{
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+.hello{
+    color: #6151BB;
+}
+
+.input-box{
+    margin-top: 31px;
+    width: 95%;
+    border-bottom: 1px solid black;
+}
+
+.input-box>p{
+    margin: 0;
+    padding: 0;
+    font-size: 0.75rem;
+    margin-bottom: 5px;
+}
+
+.eye{
+    display: flex;
+    gap: 35px;
+}
+
+i{
+    align-self: center;
+}
+
+.input-box input{
+    width: 80%;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+#hide2{
+    display: none;
+}
+
+.fp{
+    align-self: flex-end;
+    margin-right: 17px;
+}
+
+.fp>p{
+    color: #00000080;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+.login>div{
+    width: 80%;
+    background-color: #6151BB;
+    border: 1px solid #6151BB;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login>div>p{
+    color: white;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.icon{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.Facebook_Logo{
+    order: 1;
+}
+
+.Facebook_Logo>img{
+    height: 25px;
+    width: 25px;
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+}
+
+.create>div{
+    width: 37%;
+    background-color: #6151BB;
+    border: 1px solid #6151BB;
+    border-radius: 10px;
+}
+
+.create-para{
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 0;
+    color: white;
+}
