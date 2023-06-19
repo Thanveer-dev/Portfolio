@@ -15,7 +15,6 @@ p,span{
     margin-left: 3px;
     display: flex;
     flex-direction: column;
-    height: 95vh;
     width: 350px;
     gap: 10px;
 }
@@ -89,11 +88,16 @@ i{
     cursor: pointer;
 }
 
-.login>div>p{
+a{
+    text-decoration: none;
+}
+
+.login p{
     color: white;
     text-align: center;
     margin-top: 13px;
     margin-bottom: 13px;
+    outline: none;
 }
 
 .icon{
